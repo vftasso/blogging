@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Primeiro post pro Rê"
+date:   2013-08-31 01:23:13
+description: "Sociedade Esportiva Palmeiras (conhecida popularmente como o Palmeiras) é um clube poliesportivo brasileiro sediado em São Paulo que tem como modalidade esportiva principal o futebol, com um dos times mais vencedores e que está entre as equipes com maior torcida do País"
+---
+
+If you don’t know this already, the term “post slug” refers to a URL-friendly format for the post’s name. This means, no spaces, weird characters, and anything that isn’t normally allowed in a URL. Standard conventions include keeping all of the letters lower case, using dashes (“-“) instead of spaces, and using a relatively short slug.

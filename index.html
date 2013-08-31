@@ -1,0 +1,35 @@
+---
+layout: default
+title: Blog do Rê
+---
+
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="hero-unit">
+	<span>{{ site.posts.first.date | date_to_string }}</span>
+
+  <ul class="posts">
+    <h1><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h1>
+  </ul>
+ </div>
+
+<!-- Example row of columns -->
+{% for post in site.posts limit:6 %}
+<div class="row">
+  <div class="span4">
+  	{{ post.date | date_to_string }}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.description }}</p>
+  </div>
+{% endfor %}
+
+<hr>
+
+
+<!--<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>-->
